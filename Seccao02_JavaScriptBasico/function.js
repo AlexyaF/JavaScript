@@ -31,6 +31,7 @@ const raiz = function (n) {
 
 console.log(raiz(5));
 
+
 // Arrow function
 const raiz2 = n => n**5;
 console.log(raiz2(6));
