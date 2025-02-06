@@ -24,7 +24,7 @@ const pessoa = criaPessoa("Max", 55);
 console.log(pessoa)
 
 
-// Método dentro de um objeto
+// Função dentro de um objeto = método
 const objeto ={
     nome: "alexya",
     idade:20,

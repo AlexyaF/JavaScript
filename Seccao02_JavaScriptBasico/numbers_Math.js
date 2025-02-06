@@ -17,7 +17,7 @@ let num5 = 9.54789;
 console.log(Math.floor(num5)); //arredonda para cima
 console.log(Math.ceil(num5)); //arredonda para baixo
 
-//arredonda de acordo com a proximidade do numero 49< baixo 50> cima
+//arredonda de acordo com a proximidade do numero 49< baixo,  50> cima
 let num6 = Math.round(4.5972);
 console.log(num6)
 

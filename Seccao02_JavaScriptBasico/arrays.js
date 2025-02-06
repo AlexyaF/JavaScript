@@ -1,6 +1,6 @@
 const nomes = ['Ana', 'Pedro', 'Maria'];
 
-nomes[0] = 'Alexya'; // se o indice existe el substitui 
+nomes[0] = 'Alexya'; // se o indice existe ele substitui 
 nomes[3] = 'Jhonatan'; //se o indice nao existe ele cria
 
 
@@ -28,3 +28,16 @@ console.log(nomes instanceof Array);
 
 console.log(nomes);
 console.log(nomes.length);
+
+// const array = é possível alterar os valores atribuidos mas nao o tipo de valor que pode ser atribuido.
+// Isso pode
+
+const array = [1, 2, 3, 4, 5];
+array.pop();
+array[0] = 1024;
+console.log(array); // [ 1024, 2, 3, 4 ]
+ 
+// Isso NÃO pode
+
+const array = [1, 2, 3, 4, 5];
+array = 'Legal'; // Assignment to constant variable.

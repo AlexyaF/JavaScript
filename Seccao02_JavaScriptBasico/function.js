@@ -1,7 +1,6 @@
 // funcao sem retorno
 function saudacao(nome) {
     console.log(`Bom dia! ${nome}`);
-    return nome;
 }
 
 saudacao("ALEXYA");
