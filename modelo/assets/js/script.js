@@ -5,8 +5,8 @@ function calcular(evento) {
     evento.preventDefault(); //evitar comportamento padrão de recarregar a pagina 
     let mensage = '';
     let classe = '';
-    const peso = parseFloat(form.querySelector('#input-peso').value); //usar '#' quando id, sempre tranformar em valor, pois o html recebe em string
-    const altura = parseFloat(form.querySelector('#input-altura').value);
+    const peso = parseFloat(form.querySelector('#input-peso').value.replace(',','.')); //usar '#' quando id, sempre tranformar em valor, pois o html recebe em string
+    const altura = parseFloat(form.querySelector('#input-altura').value.replace(',','.')); //replace caso usuário fornaça numero com virgula
     let imc =  peso / (altura ** 2);
     // remove qualquer classe que defina cor em resultado
     resultado.classList.remove('abaixo', 'normal', 'sobrepeso', 'obesidade')
