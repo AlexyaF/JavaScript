@@ -7,7 +7,7 @@ Este espaço está sendo utilizado para organizar meus estudos, exercícios, ano
 ## 📁 Organização
 Estarei listando aqui as pastas com suas respectivas descrições:
 
-- `ex01` — Exercício: criar tela responsável por calcular o IMC do usuário a partir das informções que ele informa nos campos 'Peso' e 'Altura'. Cada mensagem de retorno recebe uma cor..
+- `ex01` — Exercício: criar tela responsável por calcular o IMC do usuário a partir das informções que ele informa nos campos 'Peso' e 'Altura'. Cada mensagem de retorno recebe uma cor.
 - _[Outras pastas em construção...]_
   
 
