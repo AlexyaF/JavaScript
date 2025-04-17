@@ -15,7 +15,7 @@ function calcular(evento) {
         classe = 'invalido'
         mensage = 'Valor informado inváido. Tente novamente!'
         imc = ''
-        resultado.innerHTML = `<p class='${classe}'>${mensage}</p>`;
+        resultado.innerHTML = `<p class='${classe}'>${mensage}</p>`; 
     }else {  
         imc = parseFloat(imc)
         console.log(imc)
