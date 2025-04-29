@@ -2,6 +2,15 @@
     box-sizing: border-box;
     outline: 0;
 }
+
+:root {
+    --primary-color: rgb(2, 151, 161);
+    --primary-color-darker: rgb(0, 92, 99);
+    --second-color:rgb(235, 254, 255);
+    --third-color:black;
+    --font-primaria: "Montserrat", sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -10,4 +19,19 @@ body {
     font-size: 1.3em;
     line-height: 1.5em;
 
+}
+
+.container{
+    width: 50%;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: var(--second-color)
+    
+}
+
+.date{
+    font-family: var(--font-primaria);
+    font-size: 1em;
+    font-weight: 100px;
 }
