@@ -14,7 +14,7 @@ const pessoa = {
 // Atribuição via desestruturação
 const {nome, sobrenome} = pessoa; // já vai cirar uma variavel usando a chave que eu passei do objeto q eu passei
 console.log(nome, sobrenome)
-// caso a chve nao exista posso adiiconar um padrão {nome = 'Nao existe'}
+// caso a chave nao exista posso adiiconar um padrão {nome = 'Nao existe'}
 
 //Para criar o nome da variavel e passar o valor da chave
 // const { nome: teste = '', sobrenome} = pessoa;
