@@ -15,7 +15,6 @@ function addNaTela(){
     const resultado = findElement();
     for (let i = 0; i < elementos.length; i++){
         const {tag, texto: frase} = elementos[i]; //Nomear a variavel o valor vem antes 'valor --> variavel'
-        console.log(tag, frase);
         const element = document.createElement(tag);
         element.textContent = frase;
         
