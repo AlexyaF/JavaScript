@@ -10,4 +10,4 @@ nome.forEach(function(valor, indice, array){
 
 // For clássico - array e strings
 // For in - Retorna o indice e chave, array, strings ou objetos
-// For of Retorna dó o valor, iteráveis, arreys e strings
+// For of Retorna só o valor, iteráveis, arreys e strings
