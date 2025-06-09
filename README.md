@@ -1,6 +1,7 @@
 # Curso de JavaScript e TypeScript - Do básico ao avançado
 
-Repositório destinado ao acompanhamento do curso **"JavaScript e TypeScript do básico ao avançado"**.
+Repositório destinado ao acompanhamento do curso **"JavaScript e TypeScript do básico ao avançado"**.  
+Link curso:https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/?couponCode=ST18MT170625A
 
 Este espaço está sendo utilizado para organizar meus estudos, exercícios, anotações e práticas realizadas ao longo do curso.
 
