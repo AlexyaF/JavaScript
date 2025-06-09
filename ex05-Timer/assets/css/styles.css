@@ -57,8 +57,5 @@ body {
 
 
 /*Uma cor para cada mensagem */
-.abaixo{background-color: rgba(255, 166, 0, 0.726);}
-.normal{background-color: rgba(102, 255, 0, 0.726);}
-.sobrepeso{background-color: rgba(255, 81, 0, 0.726);}
-.obesidade{background-color: rgba(255, 0, 0, 0.726);}
-.invalido{background-color: red;}
+.pausa{color: rgba(255, 0, 0, 0.726);}
+
