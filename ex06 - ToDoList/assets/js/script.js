@@ -6,6 +6,12 @@ function creatNewTask(text) {
     const li = document.createElement('li');
     li.innerText = text;
     tasks.appendChild(li);
+    clearInput()
+}
+
+function clearInput() {
+    InputTask.value = '';
+    InputTask.focus();
 }
 
 InputTask.addEventListener('keypress', function(e){
@@ -13,10 +19,12 @@ InputTask.addEventListener('keypress', function(e){
         if (!InputTask.value) return;
         creatNewTask(InputTask.value);
     }
+    
 })
 
 addTaskButon.addEventListener('click', function() {
     if (!InputTask.value) return;
 
     creatNewTask(InputTask.value);
+
 });
