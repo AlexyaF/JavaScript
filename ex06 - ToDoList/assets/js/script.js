@@ -8,6 +8,13 @@ function creatNewTask(text) {
     tasks.appendChild(li);
 }
 
+InputTask.addEventListener('keypress', function(e){
+    if (e.keyCode === 13) {
+        if (!InputTask.value) return;
+        creatNewTask(InputTask.value);
+    }
+})
+
 addTaskButon.addEventListener('click', function() {
     if (!InputTask.value) return;
 
