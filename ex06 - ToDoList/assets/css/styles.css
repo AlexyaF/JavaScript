@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --primary-color: rgb(2, 151, 161);
+    --primary-color-darker: rgb(0, 92, 99);
+    --second-color:rgb(235, 254, 255);
+    --third-color:black;
+    --font-primaria: "Montserrat", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: var(--font-primaria);
+    font-size: 1.3em;
+    line-height: 1.5em;
+
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 25px;
+    background: var(--second-color);
+    border-radius: 10px;
+    
+}
+
+.container__add__tasks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 0 0;
+    width: 70%;
+}
+
+.input_new_task{
+    height: 5vh;
+    width: 30vh;
+}
+
+.btn__add__task{
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 5vh;
+    width: 25vh;
+    cursor: pointer;
+}
+
+.btn__add__task:hover{
+    background-color: var(--primary-color-darker);
+}
+
+.tasks {
+    padding: 10px;
+    font-family: var(--font-primaria);
+}
