@@ -1,7 +1,7 @@
-const relogio = document.querySelector('.container__texto__relogio');
-const iniciar = document.querySelector('.iniciar');
-const pausar = document.querySelector('.pausar');
-const zerar = document.querySelector('.zerar');
+// const relogio = document.querySelector('.container__texto__relogio');     
+// const iniciar = document.querySelector('.iniciar');                       
+// const pausar = document.querySelector('.pausar');          AS VARIAVEIS NÃO SÃO MAIS NECESSÁRIAS SE EU USO addEventListener PARA IDENTIFICAR QUAL
+// const zerar = document.querySelector('.zerar');                              ELEMENTO DA PAGINA ESTÁ SENDO CLICADO/ACIONADO
 
 let intervalo = null;
 
