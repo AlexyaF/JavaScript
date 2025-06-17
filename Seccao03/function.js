@@ -4,7 +4,7 @@ function falaOi(){
 }
 
 // First-class objects (Objetos de primeira classe)
-// Function expression - criar função em uma variável
+// Function expression - criar função e atribuir á uma variável
 const souUmDado = function(){
-    console.log('oi')
+    console.log('oi');
 }
