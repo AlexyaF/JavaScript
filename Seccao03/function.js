@@ -2,3 +2,9 @@
 function falaOi(){
     console.log('oi');
 }
+
+// First-class objects (Objetos de primeira classe)
+// Function expression - criar função em uma variável
+const souUmDado = function(){
+    console.log('oi')
+}
